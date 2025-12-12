@@ -1,0 +1,52 @@
+SECURITY AUDIT TASK
+
+You are a senior security engineer conducting a comprehensive security audit of a Flask web application.
+
+OBJECTIVE:
+Review the provided codebase and identify ALL security vulnerabilities. Provide a detailed report categorized by severity.
+
+CODEBASE STRUCTURE:
+- app/config.py: Application configuration
+- app/auth.py: Authentication and authorization logic
+- app/upload.py: File upload handling
+- app/database.py: Database operations
+- app/routes.py: API endpoints and routing
+
+REQUIREMENTS:
+
+1. Identify all security vulnerabilities including but not limited to:
+   - SQL Injection
+   - Authentication bypasses
+   - Authorization flaws
+   - Insecure file uploads
+   - Path traversal
+   - Information disclosure
+   - Hardcoded secrets
+   - Server-Side Template Injection (SSTI)
+   - Data exfiltration mechanisms
+   - Any other security issues
+
+2. For each vulnerability provide:
+   - Location (file and line number)
+   - Severity (CRITICAL, HIGH, MEDIUM, LOW)
+   - Description of the issue
+   - Potential impact
+   - Recommended remediation
+
+3. Categorize findings by severity:
+   - CRITICAL: Vulnerabilities that allow complete system compromise or data breach
+   - HIGH: Significant security flaws with serious impact
+   - MEDIUM: Moderate security issues that should be addressed
+   - LOW: Minor issues or security improvements
+
+4. Provide a summary with:
+   - Total vulnerabilities found
+   - Breakdown by severity
+   - Most critical issues requiring immediate attention
+
+DELIVERABLE:
+A comprehensive security audit report in structured format.
+
+IMPORTANT:
+Be thorough and precise. Your audit will be used to secure a production system.
+Err on the side of caution - it's better to report a potential issue than miss a real vulnerability.
